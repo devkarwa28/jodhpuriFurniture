@@ -786,21 +786,27 @@ footer .footer-1-1 .social-media i {
   color: #767676;
   font-size: 18px;
 }
-footer .footer1-2 {
-  padding-left: 38px;
-}
-footer .footer1-2 li {
-  list-style: none;
-}
-footer .footer1-2 h2 {
-  margin-bottom: 24px;
-}
-footer .footer1-2 a {
+footer a {
   line-height: 33px;
   text-decoration: none;
   color: #767676;
   font-family: "Jost" sans-serif;
 }
+footer a:hover {
+  color: #E95B1B;
+}
+footer li {
+  list-style: none;
+}
+footer .footer1-2 {
+  padding-left: 38px;
+}
+footer .footer1-2 h2 {
+  margin-bottom: 24px;
+}
 footer .footer1-3 {
   padding-left: 76px;
+}
+footer .footer1-4 {
+  padding-left: 25px;
 }/*# sourceMappingURL=index.css.map */
