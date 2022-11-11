@@ -224,11 +224,16 @@ header nav ul li a:hover {
 .section-1 button {
   width: 113px;
   height: 42px;
-  background: transparent;
-  border: 1px solid #767676;
+  background-color: #EB7700;
+  border: 0px;
   border-radius: 4px;
-  color: #484848;
+  color: white;
   margin-top: 31px;
+}
+.section-1 button:hover {
+  background: transparent;
+  color: #484848;
+  border: 1px solid #484848;
 }
 .section-1 .bg-background1 {
   background: url(../images/sec1.png);
@@ -258,6 +263,11 @@ header nav ul li a:hover {
   border: 0px;
   color: #ffffff;
   margin-top: 25px;
+}
+.section-1 .bg-background2 button:hover {
+  background: transparent;
+  color: #484848;
+  border: 1px solid #484848;
 }
 
 .border {
@@ -406,8 +416,8 @@ header nav ul li a:hover {
 }
 .section-5 .sec5-bg button:hover {
   background: transparent;
-  color: #EB7700;
-  border: 1px solid #EB7700;
+  color: #484848;
+  border: 1px solid #484848;
 }
 
 .section-6 {
@@ -508,8 +518,8 @@ header nav ul li a:hover {
 }
 .section-8 button:hover {
   background: transparent;
-  color: #EB7700;
-  border: 1px solid #EB7700;
+  color: #484848;
+  border: 1px solid #484848;
 }
 .section-8 h1 {
   color: #c84620;
@@ -647,7 +657,7 @@ header nav ul li a:hover {
   color: white;
 }
 .section-12 .rating {
-  padding: 4px 12px;
+  padding: 5px 12px;
   width: 70px;
   height: 28px;
   background: rgba(233, 91, 27, 0.1);

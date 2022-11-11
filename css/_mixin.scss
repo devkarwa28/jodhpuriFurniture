@@ -11,12 +11,18 @@
             color: white;
             border-radius: 4px;
             transition: 300ms ease-in;
-            &:hover {
+            &:hover{
                 background: transparent;
-                color: $main-color4;
-                border: 1px solid $main-color4;
+                color: $main-color2;
+                border: 1px solid $main-color2;
             }
-    
+}
+@mixin hover-1{
+    &:hover{
+        background: transparent;
+        color: $main-color2;
+        border: 1px solid $main-color2;
+    }
 }
 @mixin box-w {
     width: 100%;

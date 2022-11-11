@@ -196,11 +196,12 @@ header {
     button {
         width: 113px;
         height: 42px;
-        background: transparent;
-        border: 1px solid $main-color3;
+        background-color: $main-color4;
+        border: 0px;
         border-radius: 4px;
-        color: $main-color2;
+        color: white;
         margin-top: 31px;
+        @include hover-1;
     }
     .bg-background1 {
         background: url(../images/sec1.png);
@@ -227,6 +228,7 @@ header {
             border: 0px;
             color: #ffffff;
             margin-top: 25px;
+            @include hover-1;
         }
     }
 }
@@ -569,7 +571,7 @@ transition: 300ms ease;
 }
     }
     .rating{
-        padding: 4px 12px;
+        padding: 5px 12px;
 width: 70px;
 height: 28px;
 background: rgba(233, 91, 27, 0.1);
