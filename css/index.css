@@ -262,7 +262,6 @@ header nav ul li a:hover {
 
 .border {
   border: 1px solid #ebebeb;
-  margin-top: 63px;
 }
 
 .section-2 {
@@ -763,6 +762,10 @@ header nav ul li a:hover {
 footer {
   padding-top: 43px;
 }
+footer .border {
+  margin-top: 40px;
+  margin-bottom: 26px;
+}
 footer .footer-1-1 {
   padding-left: 77px;
 }
@@ -809,4 +812,36 @@ footer .footer1-3 {
 }
 footer .footer1-4 {
   padding-left: 25px;
+}
+footer .loctaion {
+  padding-left: 76px;
+  color: #767676;
+  line-height: 1;
+}
+footer .loctaion p {
+  width: 295px;
+  margin-left: 10px;
+  line-height: 24px;
+}
+footer .loctaion .location-box {
+  margin-right: 94px;
+  margin-bottom: 26px;
+}
+footer .loctaion i {
+  padding-top: 7px;
+}
+
+.border2 {
+  border: 1px solid #ebebeb;
+  margin-bottom: 32px;
+}
+
+.disclaimer {
+  padding-bottom: 40px;
+}
+.disclaimer h1 {
+  margin-left: 74px;
+}
+.disclaimer img {
+  margin-right: 73px;
 }/*# sourceMappingURL=index.css.map */
