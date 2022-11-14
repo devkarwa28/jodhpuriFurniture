@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Jost:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400&display=swap");
 * {
@@ -63,11 +64,11 @@ a {
 }
 
 .jost {
-  font-family: "Jost" sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .inter {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .color-22222 {
@@ -140,17 +141,17 @@ header .container .search input {
 }
 header .container .search input::-moz-placeholder {
   color: #767676;
-  font-family: "Jost" sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 14px;
 }
 header .container .search input:-ms-input-placeholder {
   color: #767676;
-  font-family: "Jost" sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 14px;
 }
 header .container .search input::placeholder {
   color: #767676;
-  font-family: "Jost" sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 14px;
 }
 header .container .search button {
@@ -283,7 +284,7 @@ header nav ul li a:hover {
 }
 .section-2 span {
   font-size: 16px;
-  font-family: "Jost" sans-serif;
+  font-family: "Jost", sans-serif;
   color: #222222;
 }
 .section-2 .cat-box {
@@ -629,7 +630,7 @@ header nav ul li a:hover {
 
 .section-12 {
   margin-top: 82px;
-  background: #F4F9FC;
+  background: #f4f9fc;
   padding: 48px 0px 56px 0px;
 }
 .section-12 h2 {
@@ -663,7 +664,7 @@ header nav ul li a:hover {
   background: rgba(233, 91, 27, 0.1);
   border-radius: 20px;
   line-height: 1;
-  color: #E95B1B;
+  color: #e95b1b;
 }
 .section-12 .rating i {
   margin-left: 6px;
@@ -705,7 +706,7 @@ header nav ul li a:hover {
 
 .section-15 {
   margin-top: 34px;
-  background: #FAF8F4;
+  background: #faf8f4;
   padding-top: 60px;
   padding-bottom: 97px;
 }
@@ -719,7 +720,8 @@ header nav ul li a:hover {
   position: relative;
   margin-bottom: 20px;
 }
-.section-15 .sec15-box2 .floating-input, .section-15 .sec15-box2 .floating-select {
+.section-15 .sec15-box2 .floating-input,
+.section-15 .sec15-box2 .floating-select {
   font-size: 14px;
   padding: 4px 4px;
   display: block;
@@ -729,7 +731,8 @@ header nav ul li a:hover {
   border: none;
   border-bottom: 2px solid #484848;
 }
-.section-15 .sec15-box2 .floating-input:focus, .section-15 .sec15-box2 .floating-select:focus {
+.section-15 .sec15-box2 .floating-input:focus,
+.section-15 .sec15-box2 .floating-select:focus {
   outline: none;
   border-bottom: 2px solid #E95B1B;
 }
@@ -750,12 +753,14 @@ header nav ul li a:hover {
   font-size: 14px;
   color: #E95B1B;
 }
-.section-15 .sec15-box2 .floating-input:focus ~ label, .section-15 .sec15-box2 .floating-input:not(:placeholder-shown) ~ label {
+.section-15 .sec15-box2 .floating-input:focus ~ label,
+.section-15 .sec15-box2 .floating-input:not(:placeholder-shown) ~ label {
   top: -22px;
   font-size: 14px;
   color: #E95B1B;
 }
-.section-15 .sec15-box2 .floating-select:focus ~ label, .section-15 .sec15-box2 .floating-select:not([value=""]):valid ~ label {
+.section-15 .sec15-box2 .floating-select:focus ~ label,
+.section-15 .sec15-box2 .floating-select:not([value=""]):valid ~ label {
   top: -18px;
   font-size: 14px;
   color: #E95B1B;
@@ -803,7 +808,7 @@ footer a {
   line-height: 33px;
   text-decoration: none;
   color: #767676;
-  font-family: "Jost" sans-serif;
+  font-family: "Jost", sans-serif;
 }
 footer a:hover {
   color: #E95B1B;
@@ -854,4 +859,215 @@ footer .loctaion i {
 }
 .disclaimer img {
   margin-right: 73px;
+}
+
+.listing-section1 {
+  padding: 88px 0px 68px 0px;
+  background: #f8f8f8;
+}
+.listing-section1 p {
+  margin-bottom: 32px;
+}
+.listing-section1 p span {
+  color: #E95B1B;
+}
+.listing-section1 .items-slider {
+  padding-left: 100px;
+}
+.listing-section1 .li-sec1-box {
+  margin-right: 24px;
+}
+.listing-section1 .box-list {
+  width: 212px;
+  height: 148px;
+  background: #ffffff;
+  display: grid;
+  place-items: center;
+}
+.listing-section1 .box-list img {
+  transition: 300ms ease;
+}
+.listing-section1 .box-list:hover img {
+  transform: scale(1.08);
+}
+.listing-section1 h2 {
+  margin-top: 6px;
+}
+
+.listing-section2 {
+  padding-top: 40px;
+}
+.listing-section2 .filter-options h1 {
+  margin-bottom: 19px;
+}
+.listing-section2 .filter-options h6 {
+  margin-left: 16px;
+  margin-bottom: 0px;
+  width: 200px;
+  font-weight: normal;
+}
+.listing-section2 .filter-row {
+  margin-bottom: 18px;
+}
+.listing-section2 .filter-row input + label {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #bcbcbc;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.listing-section2 .filter-row input:checked + label:after {
+  position: relative;
+  top: -4px;
+  left: 2px;
+  content: "✓";
+  font-size: 15px;
+}
+.listing-section2 .filter-row input {
+  display: none;
+}
+.listing-section2 .filter-row button {
+  border: 0px;
+  background: transparent;
+}
+.listing-section2 .range-selector {
+  margin-top: 35px;
+}
+.listing-section2 .select-finish {
+  margin-top: 35px;
+}
+.listing-section2 .select-finish img {
+  width: 22px;
+  height: 22px;
+}
+.listing-section2 .select-finish h6 {
+  padding-top: 2px;
+}
+.listing-section2 .select-storage {
+  margin-top: 35px;
+}
+.listing-section2 .sorting-bar {
+  padding: 20px 16px 18px 17px;
+  background: #f8f8f8;
+}
+.listing-section2 .sorting-bar select {
+  height: 42px;
+  padding: 10px 16px;
+  width: 241px;
+  margin-left: 8px;
+  background: #ffffff;
+  border: 1px solid #EBEBEB;
+}
+.listing-section2 .sorting-bar button {
+  border: 0px;
+  margin-right: 8px;
+  background: transparent;
+}
+.listing-section2 .sorting-bar h6 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto 0px;
+  margin-left: 12px;
+}
+.listing-section2 .sorting-bar h2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto 0px;
+  margin-left: 19px;
+}
+.listing-section2 .list-box {
+  margin-top: 32px;
+}
+.listing-section2 .list-box strike {
+  margin-left: 9px;
+}
+.listing-section2 .list-box h5 {
+  margin-top: 12px;
+}
+.listing-section2 .list-box b {
+  font-weight: 600;
+}
+.listing-section2 .list-box .item-pic1 {
+  width: 100%;
+  height: 232px;
+  padding: 8px 8px 16px 8px;
+  background: url(../images/list-1.png);
+}
+.listing-section2 .list-box .item-pic1:hover .add-to-cart {
+  opacity: 1;
+}
+.listing-section2 .list-box .item-pic2 {
+  width: 100%;
+  height: 232px;
+  padding: 8px 8px 16px 8px;
+  background: url(../images/list-2.png);
+}
+.listing-section2 .list-box .item-pic2:hover .add-to-cart {
+  opacity: 1;
+}
+.listing-section2 .list-box .item-pic3 {
+  width: 100%;
+  height: 232px;
+  padding: 8px 8px 16px 8px;
+  background: url(../images/list-3.png);
+}
+.listing-section2 .list-box .item-pic3:hover .add-to-cart {
+  opacity: 1;
+}
+.listing-section2 .list-box .item-pic4 {
+  width: 100%;
+  height: 232px;
+  padding: 8px 8px 16px 8px;
+  background: url(../images/list-4.png);
+}
+.listing-section2 .list-box .item-pic4:hover .add-to-cart {
+  opacity: 1;
+}
+.listing-section2 .list-box .item-pic5 {
+  width: 100%;
+  height: 232px;
+  padding: 8px 8px 16px 8px;
+  background: url(../images/list-5.png);
+}
+.listing-section2 .list-box .item-pic5:hover .add-to-cart {
+  opacity: 1;
+}
+.listing-section2 .list-box .item-pic6 {
+  width: 100%;
+  height: 232px;
+  padding: 8px 8px 16px 8px;
+  background: url(../images/list-6.png);
+}
+.listing-section2 .list-box .item-pic6:hover .add-to-cart {
+  opacity: 1;
+}
+
+.wishlist-btn {
+  padding: 4px 6px;
+  width: 32px;
+  height: 28px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 0px;
+  color: #767676;
+  line-height: 1;
+}
+
+.add-to-cart {
+  padding: 6px 10px;
+  width: 131px;
+  height: 35px;
+  background: #E95B1B;
+  border-radius: 4px;
+  border: 0px;
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+  margin-top: 145px;
+  transition: 300ms ease;
+  opacity: 0;
 }/*# sourceMappingURL=index.css.map */
