@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Jodhpuri</title>
+</head>
+
+<body>
+    <div class="header-2 container-fluid">
+        <div class="container2">
+            <div class="d-flex">
+                <img src="images/logo.svg" alt="" class="img1">
+                <div class="progress-bar-cart d-flex">
+                    <div class="d-flex">
+                        <img src="images/active-cart.svg" alt="">
+                        <h2 class="inter font-16 fw-normal color-6">Cart</h2>
+                    </div>
+                    <div class="border3"></div>
+                    <div class="d-flex">
+                        <img src="images/map-pin2.svg" alt="">
+                        <h2 class="inter font-16 fw-normal color-6">Address</h2>
+                    </div>
+                    <div class="border3"></div>
+                    <div class="d-flex">
+                        <img src="images/payment2.svg" alt="">
+                        <h2 class="inter font-16 fw-normal color-6">Payments</h2>
+                    </div>
+                </div>
+                <div class="ms-auto mt-2">
+                    <h1 class="jost font-15 color-767676">Have Questions? We're here to help</h1>
+                    <h3 class="jost font-18 color-22222 text-end">Call : +91 99299 46846</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="customer-form container-fluid">
+        <div class="container2">
+            <div class="order-successed text-center">
+                <img src="images/success.svg" alt="">
+                <h2 class="font-32 fw-500 jost color-22222">Successfully Ordered!</h2>
+                <p class="font-16 jost fw-normal color-22222 mb-0">Thank you for your order, you should receive and e-mail confirmation very soon :)</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="disclaimer2 container-fluid">
+        <div class="container2 d-flex justify-content-between">
+
+            <h1 class="color-767676 fw-normal jost font-16">Copyright 2022 © Jodhpuri Furniture - All Rights Reserved.
+            </h1>
+            <img src="images/upi.svg" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+<script>
+    var buttonPlus = $(".qty-btn-plus");
+    var buttonMinus = $(".qty-btn-minus");
+
+    var incrementPlus = buttonPlus.click(function () {
+        var $n = $(this)
+            .parent(".qty-container")
+            .find(".input-qty");
+        $n.val(Number($n.val()) + 1);
+    });
+
+    var incrementMinus = buttonMinus.click(function () {
+        var $n = $(this)
+            .parent(".qty-container")
+            .find(".input-qty");
+        var amount = Number($n.val());
+        if (amount > 0) {
+            $n.val(amount - 1);
+        }
+    });
+</script>
+
+</html>

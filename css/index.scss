@@ -167,29 +167,29 @@ header {
             }
         }
     }
-    nav {
-        height: 42px;
-        padding: 12px 0px 12px 0px;
-        margin-top: 8px;
-        ul {
-            margin-left: 77px;
+    // nav {
+    //     height: 42px;
+    //     padding: 12px 0px 12px 0px;
+    //     margin-top: 8px;
+    //     ul {
+    //         margin-left: 77px;
 
-            li {
-                list-style: none;
-                margin-right: 72px;
-                a {
-                    color: $main-color2;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    font-size: $f-14;
-                    line-height: 1;
-                    &:hover {
-                        color: $main-color6;
-                    }
-                }
-            }
-        }
-    }
+    //         li {
+    //             list-style: none;
+    //             margin-right: 72px;
+    //             a {
+    //                 color: $main-color2;
+    //                 text-decoration: none;
+    //                 text-transform: uppercase;
+    //                 font-size: $f-14;
+    //                 line-height: 1;
+    //                 &:hover {
+    //                     color: $main-color6;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 .section-1 {
     margin-top: 16px;
@@ -1179,6 +1179,8 @@ a:hover {
 }
 .disclaimer2 {
     padding-top: 23px;
+    position: fixed;
+    bottom: 0px;
     padding-bottom: 32px;
     border-top: 1px solid #ebebeb;
     background: #f8f8f8;
@@ -1272,5 +1274,38 @@ border-radius: 4px;
     h2{
         margin-bottom: 11px;
         line-height: 19px;
+    }
+}
+.billing-box2{
+   padding: 18px 26px 26px 26px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 16px;
+    h2{
+        margin-bottom: 12px;
+    }
+    h4{
+        margin-bottom: 4px;
+    }
+    .border-apply3{
+        border: 1px solid #E5E5E5;
+        margin-top: 20px;
+        margin-bottom: 18px;
+    }
+    label{
+        margin-left: 11px;
+    }
+}
+.order-successed{
+    border: 1px solid #E5E5E5;
+    width: 487px;
+    margin: auto;
+    margin-top: 61px;
+    margin-bottom: 76px;
+    padding: 41px 80px 49px 80px;
+    img{
+        margin-bottom: 23px;
+    }
+    h2{
+        margin-bottom: 8px;
     }
 }
