@@ -95,7 +95,6 @@ margin-bottom: 16px;
 }
 
 .mega-menu a {
-    color: #4ea3d8;
     display: block;
     font-family: 'Jost',sans-serif;
 font-style: normal;
@@ -107,7 +106,7 @@ color: #767676;
 }
 
 .mega-menu a:hover {
-    color: #2d6a91;
+    color: #E95B1B;
 }
 
 
