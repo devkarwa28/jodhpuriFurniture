@@ -277,20 +277,19 @@ header {
                 color: $main-color6;
             }
         }
-        .bg-sec3-1 {
+        .bg-sec3{
             width: 100%;
             height: 480px;
-            background: url(../images/sec3-1.png);
-        }
-        .bg-sec3-2 {
-            width: 100%;
-            height: 480px;
-            background: url(../images/sec3-2.png);
-        }
-        .bg-sec3-3 {
-            width: 448px;
-            height: 480px;
-            background: url(../images/sec3-3.png);
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                transition: 300ms ease;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+
         }
         .sec3-box {
             width: 392px;
@@ -299,6 +298,7 @@ header {
             margin: auto;
             padding-top: 18px;
             margin-top: -32px;
+            position: sticky;
             span {
                 color: $main-color6;
                 margin-bottom: 4px;
