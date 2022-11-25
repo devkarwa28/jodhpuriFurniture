@@ -38,6 +38,9 @@ a {
 .font-32 {
     font-size: $f-32;
 }
+.font-36 {
+    font-size: $f-36;
+}
 .font-48 {
     font-size: $f-48;
 }
@@ -61,6 +64,9 @@ a {
 }
 .color-767676 {
     color: $main-color3;
+}
+.color-2{
+    color: $main-color2;
 }
 .color-6 {
     color: $main-color6;
@@ -167,29 +173,6 @@ header {
             }
         }
     }
-    // nav {
-    //     height: 42px;
-    //     padding: 12px 0px 12px 0px;
-    //     margin-top: 8px;
-    //     ul {
-    //         margin-left: 77px;
-
-    //         li {
-    //             list-style: none;
-    //             margin-right: 72px;
-    //             a {
-    //                 color: $main-color2;
-    //                 text-decoration: none;
-    //                 text-transform: uppercase;
-    //                 font-size: $f-14;
-    //                 line-height: 1;
-    //                 &:hover {
-    //                     color: $main-color6;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
 }
 .section-1 {
     margin-top: 16px;
