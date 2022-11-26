@@ -69,7 +69,7 @@ nav>ul>li:hover>a {
     text-align: left;
     width: 1242px;
     margin-left: 70px;
-    box-shadow: 0px 8px 10px grey;
+    box-shadow: 0px 4px 20px rgba(72, 72, 72, 0.2);
 }
 
 .mega-menu h3 {
