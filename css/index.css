@@ -173,7 +173,7 @@ header .container .search button {
   border: 1px solid #dddddd;
   border-left: 0px;
   padding-right: 16.5px;
-  margin-left: -4px;
+  margin-left: -5px;
   border-radius: 0px 4px 4px 0px;
 }
 header .container .store {
@@ -190,6 +190,7 @@ header .container .store:hover {
 }
 header .container .store span {
   margin-left: 8px;
+  line-height: 1.4;
 }
 header .container .account {
   line-height: 1;
@@ -666,6 +667,7 @@ header .container .account i:hover {
 }
 .section-13 .content {
   margin-top: 36px;
+  padding: 0px 12px;
 }
 .section-13 .content h1 {
   font-size: 20px;
@@ -1497,4 +1499,44 @@ a:hover {
 
 .about-us-3 {
   margin-top: 70px;
+}
+.about-us-3 .count-img {
+  width: 64px;
+  height: 64px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 13px;
+}
+.about-us-3 .video-about {
+  width: 1030px;
+  height: 516px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/video-tumbnail.png);
+  margin: auto;
+  margin-top: 69px;
+  place-items: center;
+}
+
+.about-us-4 {
+  margin-top: 80px;
+}
+.about-us-4 h1 {
+  width: 655px;
+  margin-bottom: 14px !important;
+}
+.about-us-4 p {
+  width: 995px;
+}
+
+.about-us-5 {
+  margin-top: 58px;
+  margin-bottom: 113px;
+}
+.about-us-5 h1 {
+  width: 550px;
+  margin-bottom: 40px;
+  line-height: 35px;
+}
+.about-us-5 li {
+  line-height: 40px;
 }/*# sourceMappingURL=index.css.map */

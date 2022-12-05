@@ -139,7 +139,7 @@ header {
                 border: 1px solid #dddddd;
                 border-left: 0px;
                 padding-right: 16.5px;
-                margin-left: -4px;
+                margin-left: -5px;
                 border-radius: 0px 4px 4px 0px;
             }
         }
@@ -156,6 +156,7 @@ header {
             }
             span {
                 margin-left: 8px;
+                line-height: 1.4;
             }
         }
         .account {
@@ -574,6 +575,7 @@ header {
 
     .content {
         margin-top: 36px;
+        padding: 0px 12px;
         h1 {
             font-size: 20px;
         }
@@ -1337,4 +1339,42 @@ a:hover {
 }
 .about-us-3{
 margin-top: 70px;
+.count-img{
+    width: 64px;
+    height: 64px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 13px;
+}
+.video-about{
+    width: 1030px;
+height: 516px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/video-tumbnail.png);
+margin: auto;
+margin-top: 69px;
+place-items: center;
+}
+}
+.about-us-4{
+    margin-top: 80px;
+    h1{
+        width: 655px;
+        margin-bottom: 14px !important;
+    }
+    p{
+        width: 995px;
+    }
+}
+.about-us-5{
+    margin-top: 58px;
+    margin-bottom: 113px;
+    h1{
+        width: 550px;
+        margin-bottom: 40px;
+        line-height: 35px;
+    }
+    li{
+        line-height: 40px;
+    }
 }
